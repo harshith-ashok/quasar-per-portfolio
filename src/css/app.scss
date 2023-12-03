@@ -1,0 +1,223 @@
+// app global css in SCSS form
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@1,600&display=swap");
+
+// MENU - MainLayout.Vue
+.menu-item {
+  font-family: "Victor Mono";
+  font-style: italic;
+  text-align: center;
+  margin-left: 20px;
+  padding-left: 20px;
+  margin-right: 20px;
+  padding-right: 20px;
+  text-transform: none !important;
+  opacity: 1 !important;
+}
+
+.menu-item:hover {
+  text-shadow: $pri 0px 0px 10px;
+}
+.q-btn .q-focus-helper {
+  display: none;
+}
+.menu-bar {
+  background-color: $bg;
+}
+
+.bg {
+  background-color: $bg;
+}
+.bg-amoled {
+  background-color: #000;
+}
+
+// END MENU
+
+//HOME PAGE
+
+.name-title-center {
+  font-family: "Rubik Mono One";
+  color: $pri;
+  opacity: 0.2;
+  font-size: 140px;
+}
+
+.mini-text {
+  font-family: "Victor Mono";
+  font-style: italic;
+  font-size: 16px;
+  color: $pri;
+  text-align: center;
+  text-shadow: $pri 0 0 15px;
+}
+
+.name-title-center-z {
+  margin-top: -200px;
+  text-align: center;
+  font-family: "Victor Mono";
+  font-style: italic;
+  color: $pri;
+  opacity: 0.8;
+  font-size: 90px;
+}
+
+.content-width {
+  width: 75%;
+}
+
+.hmmm {
+  font-family: "Victor Mono";
+  font-style: italic;
+  font-size: 18px;
+  color: $pri;
+}
+.icn {
+  color: $pri;
+  text-shadow: $pri-tw 0 0 10px;
+}
+
+.card {
+  margin: 90px;
+}
+
+.cnt-lap {
+  font-family: "Victor Mono";
+  font-style: italic;
+  font-size: 18px;
+  color: $pri;
+}
+
+// PAGE
+
+.page-header1 {
+  font-family: "Rubik Mono One";
+  color: $pri;
+  opacity: 0.2;
+  font-size: 90px;
+}
+
+.page-header2 {
+  margin-top: -160px;
+  text-align: center;
+  font-family: "Victor Mono";
+  font-style: italic;
+  color: $pri;
+  opacity: 0.8;
+  font-size: 50px;
+}
+
+.page-width {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
+.main-container {
+  background-color: rgb(6, 29, 41, 40%);
+  border-radius: 20px;
+}
+
+.card-row {
+  height: 200px;
+  width: 100%;
+  background-color: blue;
+}
+
+.skill-card {
+  width: 100px;
+  height: 100px;
+  background-color: $sec;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.lang-title {
+  font-family: "Victor Mono";
+  font-style: italic;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: $pri;
+}
+
+.sep {
+  width: 10%;
+  color: $pri;
+}
+
+.contact_inp {
+  background-color: $pri;
+  border-radius: 15px;
+  width: 40%;
+}
+
+.submit_btn {
+  border: solid 1px;
+  border-color: $pri;
+  border-radius: 10px;
+  width: 40%;
+  color: $pri;
+  font-family: "Victor Mono";
+  text-transform: none;
+  text-shadow: $pri 0px 0px 10px;
+}
+
+.contact_inp:focus-visible {
+  border: none;
+}
+
+@media (max-width: 1800px) {
+  .name-title-center {
+    display: none;
+  }
+  .name-title-center-z {
+    font-size: 40px;
+    margin: 0px;
+    padding: 20px;
+  }
+  .mini-text {
+    font-size: 14px;
+  }
+  .hmmm {
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+  .menu-item {
+    margin: 10px;
+    text-shadow: $pri 0px 0px 10px;
+  }
+  .card {
+    margin: 10px;
+    padding: 0;
+  }
+  .cnt-lap {
+    font-size: 14px;
+  }
+  .page-header1 {
+    font-family: "Rubik Mono One";
+    color: $pri;
+    opacity: 0.2;
+    font-size: 80px;
+  }
+  .amo {
+    display: none;
+  }
+  .contact_inp {
+    background-color: $pri;
+    border-radius: 15px;
+    width: 90%;
+  }
+
+  .submit_btn {
+    border: solid 1px;
+    border-color: $pri;
+    border-radius: 10px;
+    width: 90%;
+    color: $pri;
+    font-family: "Victor Mono";
+    text-transform: none;
+    text-shadow: $pri 0px 0px 10px;
+  }
+}
