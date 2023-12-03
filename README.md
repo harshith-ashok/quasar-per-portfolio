@@ -1,41 +1,22 @@
-# Portfolio (portfolio)
+# My Personal Website built with Vue and Quasar (portfolio)
+
+---
+
+## Technologies
+
+- Vue JS (UI)
+- Quasar (UI kit/Library)
 
 My Personal Portfolio
 
-## Install the dependencies
-```bash
-yarn
-# or
-npm install
-```
-
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
+
 ```bash
 quasar dev
 ```
 
+### TODO
 
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
-
-
-### Format the files
-```bash
-yarn format
-# or
-npm run format
-```
-
-
-
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+- Add functionality to social icons
+- Add footers to pages
+- Convert Project to an actual website (loong)
