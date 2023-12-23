@@ -3,7 +3,7 @@
     <q-header class="q-pa-sm q-py-sm menu-bar" :style="{ backgroundColor: isActive ? '#000' : '#040d12' }">
       <div class="row justify-center">
         <q-btn :ripple="false" flat class="q-pa-sm menu-item" to="/">Home</q-btn>
-        <q-btn :ripple="false" flat class="q-pa-sm menu-item" to="/about">About</q-btn>
+        <q-btn :ripple="false" flat class="q-pa-sm menu-item" to="/about">About Me</q-btn>
         <div class="q-pa-sm menu-item">Blog</div>
         <q-btn :ripple="false" flat class="q-pa-sm menu-item" to="/contact">Contact</q-btn>
         <q-icon size="20px" class="icn absolute-right q-pa-md amo" name="fa-solid fa-moon" @click="toggleClass()" />

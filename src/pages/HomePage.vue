@@ -7,8 +7,9 @@
     </div>
     <div class="content-width">
       <p class="hmmm">
-        At just 16 years old, I'm a versatile tech enthusiast, proficient in both web development and design. My expertise
-        spans the entire tech stack, from crafting captivating frontends to crafting robust backends and integrating APIs
+        At just 17 years old, I'm a versatile tech enthusiast, proficient in both web development and design. My expertise
+        spans across the entire tech stack, from crafting captivating frontends to robust backends and
+        integrating APIs
         seamlessly. I'm on a dynamic journey to shape the digital world with innovation and creativity.
       </p>
       <div class="flex flex-center q-py-sm">

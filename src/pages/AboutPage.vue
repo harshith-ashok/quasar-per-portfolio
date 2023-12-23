@@ -2,7 +2,7 @@
   <div class="flex flex-center">
     <div style="text-align: center" class="q-pa-md">
       <h1 class="page-header1"> About</h1>
-      <h1 class="page-header2"> About</h1>
+      <h1 class="page-header2"> About Me</h1>
     </div>
 
   </div>

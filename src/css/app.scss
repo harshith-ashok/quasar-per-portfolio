@@ -39,8 +39,9 @@
 .name-title-center {
   font-family: "Rubik Mono One";
   color: $pri;
-  opacity: 0.2;
+  opacity: 0.05;
   font-size: 140px;
+  text-shadow: $pri 0 0 15px;
 }
 
 .mini-text {
@@ -58,7 +59,7 @@
   font-family: "Victor Mono";
   font-style: italic;
   color: $pri;
-  opacity: 0.8;
+  opacity: 1;
   font-size: 90px;
 }
 
@@ -93,7 +94,7 @@
 .page-header1 {
   font-family: "Rubik Mono One";
   color: $pri;
-  opacity: 0.2;
+  opacity: 0.05;
   font-size: 90px;
 }
 
@@ -198,7 +199,7 @@
   .page-header1 {
     font-family: "Rubik Mono One";
     color: $pri;
-    opacity: 0.2;
+    opacity: 0.05;
     font-size: 80px;
   }
   .amo {
